@@ -1,0 +1,138 @@
+/* Mobile & tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .nav-table-mobile{
+        display:block;
+    }
+    .content-container__rigth{
+        margin-top: 20px;
+    }
+    .nav-text{
+        font-size:3rem;
+        font-weight: 600;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+
+    .mt-20{
+        margin-top: 20px;
+    }
+    .mt-50{
+        margin-top: 50px;
+    }
+    .content-img__fashion{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .content-reviews__founder{
+        border-top-right-radius: 5px !important;
+    }
+    .content-reviews__founder::before {
+       display: none;
+    }
+    .ms-3{
+        margin-left: 30px;
+    }
+    .footer-text{
+        font-size: 2rem;
+    }
+
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .nav-mobile{
+        display:block;
+    }
+    .nav-table-mobile{
+        margin-left: 10px;
+    }
+
+
+    .navbar-left__texts{
+        font-size: 4rem;
+    }
+    .content-container__rigth,
+    .content-container__left{
+        display: block;
+    }
+    .content-sale__container{
+        max-width: 100%;
+        margin: 30px;
+    }
+    .content-container__text,
+    .content-container__textx{
+        font-size: 2rem;
+    }
+    .content-container__advertisement{
+        margin-left:30px;
+        margin-top:30px;
+    }
+   
+    .content-sale__imgs{
+        margin:0;
+    }
+    .mt-20{
+        margin-top: 20px;
+    }
+    .mt-50{
+        margin-top: 50px;
+    }
+    .p-all{
+        padding: 0 15px;
+    }
+    .content-img__fashion{
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .content-reviews__founder{
+        max-width: 100%;
+        display: block;
+        border-top-right-radius: 5px !important;
+    }
+    .content-reviews__founder::before {
+       display: none;
+    }
+    .content-reviews__list {
+        padding-bottom: 50px;
+    }
+    .content-gmail__guide {
+        margin-left: 15px;
+    }
+    .footer{
+        padding: 10px 50px;
+    }
+    .footer-text{
+        font-size: 2rem;
+    }
+
+    .nav-cart {
+        right: -133px;
+        width: 366px;
+    }
+    .nav-cart::after {
+        right: 125px;
+    }
+    .content-new__list{
+        display: flex;
+        justify-content: center;
+    }
+    .content-new__text{
+        font-size:3rem;
+    }
+}

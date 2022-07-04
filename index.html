@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- header -->
+        <div class="header position-relative">
+
+            <!-- nav -->
+            <div class="grid wide">
+                <nav class="nav d-flex justify-content align-items">
+                    <!-- pc -->
+                    <h1 class="nav-text hide-on-mobile-tablet">Fashion <span class="nav-span">Era</span></h1>
+
+                    <ul class="nav-list hide-on-mobile-tablet">
+                        <li class="nav-item f-size-4">
+                            <a href="#" class="nav-link">Men</a>
+                        </li>
+                        <li class="nav-item f-size-4">
+                            <a href="#" class="nav-link">Women</a>
+                        </li>
+                        <li class="nav-item f-size-4">
+                            <a href="#" class="nav-link">Kids</a>
+                        </li>
+                        <li class="nav-item f-size-4">
+                            <a href="#" class="nav-link">Winter</a>
+                        </li>
+                        <li class="nav-item f-size-4">
+                            <a href="#" class="nav-link">Lifestyle</a>
+                        </li>
+                    </ul>
+
+
+                    <!-- nav-tablet-mobile -->
+
+                    <label for="nav-table-mobile__input" class="nav-table-mobile">
+                        <a class="nav-text">Fashion <span class="nav-span">Era</span></a>
+                    </label>
+                    <input type="checkbox" hidden class="nav-table-mobile__check" id="nav-table-mobile__input">
+                    <div class="nav-table-mobile__label m-w100 position-absolute">
+                        <label for="nav-table-mobile__input" class="nav-tablet-mobile_icon position-absolute">
+                                <i class="fa fa-times"></i>
+                         </label>
+
+                        <ul class="nav-tablet-mobile__list">
+                            <li class="nav-tablet-mobile__item f-size-4">
+                                <a href="#" class="nav-link">Men</a>
+                            </li>
+                            <li class="nav-tablet-mobile__item f-size-4">
+                                <a href="#" class="nav-link">Women</a>
+                            </li>
+                            <li class="nav-tablet-mobile__item f-size-4">
+                                <a href="#" class="nav-link">Kids</a>
+                            </li>
+                            <li class="nav-tablet-mobile__item f-size-4">
+                                <a href="#" class="nav-link">Winter</a>
+                            </li>
+                            <li class="nav-tablet-mobile__item f-size-4">
+                                <a href="#" class="nav-link">Lifestyle</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <!-- nav-mobile -->
+
+                    <!-- pc -->
+                    <div class="nav-content d-flex hide-on-mobile">
+                        <div class="nav-search position-relative">
+                            <input type="text" class="search-input m-w100" placeholder="search">
+
+                            <!-- nav-search -->
+                            <div class="nav__search-history box-shadow position-absolute rounded">
+                                <h3 class="nav__search-history-heading f-weight-4">Lịch sử tìm kiếm</h3>
+                                <ul class="nav-list">
+                                    <li class="nav-iteams">
+                                        <a class="nav-link" href="#">Áo mùa hè</a>
+                                    </li>
+                                    <li class="nav-iteams">
+                                        <a class="nav-link" href="#">Đồ em bé</a>
+                                    </li>
+                                    <li class="nav-iteams">
+                                        <a class="nav-link" href="#">Quần mùa đông</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="search-btn" aria-label="Tìm kiếm">
+                           <i class="nav-icon fa fa-search"></i>
+                          </button>
+                    </div>
+
+
+                    <!-- pc -->
+                    <ul class="nav-list">
+                        <li class="nav-iteam position-relative">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon__down fa fa-shopping-cart"></i>
+                                <span class="nav-circle position-absolute d-flex align-items justify-content__center">3</span>
+                            </a>
+
+                            <!-- nav-cart -->
+                            <div class="nav-cart box-shadow position-absolute rounded">
+                                <h2 class="nav-cart__text">Sản phẩm đã thêm</h2>
+
+                                <ul class="nav-list">
+                                    <li class="nav-cart__iteams d-flex align-items">
+                                        <img src="img/image 17.png" alt="" class="nav-cart__img">
+
+                                        <div class="nav-cart__info">
+                                            <div class="nav-cart__info-price d-flex justify-content align-items">
+                                                <h5 class="nav-cart__info-name f-size-4">Quần áo cao cấp</h5>
+                                                <div class="nav-cart__info-rigth">
+                                                    <span class="nav-cart__info-wrap f-size-4 f-weight-4">1.400.000</span>
+                                                    <span class="nav-cart__info-multiply">x</span>
+                                                    <span class="nav-cart__info-amount">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="nav-cart__info-body d-flex justify-content align-items">
+                                                <span class="nav-cart__info-description f-weight-4">Phân loại: Bạc</span>
+                                                <span class="nav-cart__info-remove f-size-4 f-weight-4">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-cart__iteams d-flex align-items">
+                                        <img src="img/image 15.png" alt="" class="nav-cart__img">
+
+                                        <div class="nav-cart__info">
+                                            <div class="nav-cart__info-price d-flex justify-content align-items">
+                                                <h5 class="nav-cart__info-name f-size-4">Quần áo , vãy cao cấp của Nữ mùa hè trẻ đẹp thanh lịch mát mẻ phong cách </h5>
+                                                <div class="nav-cart__info-rigth">
+                                                    <span class="nav-cart__info-wrap f-size-4 f-weight-4">3.000$</span>
+                                                    <span class="nav-cart__info-multiply">x</span>
+                                                    <span class="nav-cart__info-amount">5</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="nav-cart__info-body d-flex justify-content align-items">
+                                                <span class="nav-cart__info-description f-weight-4">Phân loại: Kim Cương</span>
+                                                <span class="nav-cart__info-remove f-size-4 f-weight-4">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-cart__iteams d-flex align-items">
+                                        <img src="img/image 16.png" alt="" class="nav-cart__img">
+
+                                        <div class="nav-cart__info">
+                                            <div class="nav-cart__info-price d-flex justify-content align-items">
+                                                <h5 class="nav-cart__info-name f-size-4">Thời trang cao cấp Mỹ Đình</h5>
+                                                <div class="nav-cart__info-rigth">
+                                                    <span class="nav-cart__info-wrap f-size-4 f-weight-4">200.000.000</span>
+                                                    <span class="nav-cart__info-multiply">x</span>
+                                                    <span class="nav-cart__info-amount">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="nav-cart__info-body d-flex justify-content align-items">
+                                                <span class="nav-cart__info-description f-weight-4">Phân loại: Vàng</span>
+                                                <span class="nav-cart__info-remove f-size-4 f-weight-4">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-iteam position-relative">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon__down nav-icon__hover fa fa-heart-o"></i>
+                                <span class="nav-circle position-absolute d-flex align-items justify-content__center">8</span>
+                            </a>
+                        </li>
+
+
+
+                        <li class="nav-iteam position-relative">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon__down fa fa-user-o"></i>
+                            </a>
+
+                            <!-- nav-account -->
+                            <ul class="nav-account position-absolute box-shadow rounded">
+                                <li class="nav-iteams">
+                                    <a href="#" class="nav-link">Tài khoản của tôi</a>
+                                </li>
+
+                                <li class="nav-iteams">
+                                    <a href="#" class="nav-link">Địa chỉ</a>
+                                </li>
+
+                                <li class="nav-iteams">
+                                    <a href="#" class="nav-link">Đơn mua</a>
+                                </li>
+
+                                <li class="nav-iteams position-relative">
+                                    <span class="nav-width"></span>
+                                    <a href="#" class="nav-link">Đăng xuất</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <!-- navbar -->
+            <div class="navbar position-relative">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12 navbar-left mt-100 mt-20">
+                            <h3 class="navbar-left__text f-weight-4">TRENDING COLLECTION</h3>
+                            <h2 class="navbar-left__texts">Explore Summer Collection</h2>
+                            <button class="navbar-left__btn">Shop Now</button>
+                        </div>
+
+                        <div class="col l-6 m-12 c-12 nav-right d-flex justify-content__center align-items">
+                            <img class="nav-right__img m-w100" src="img/image 5.png" alt="">
+                            <img class="nav-right__img m-w100" src="img/image 1.png" alt="">
+                            <img class="nav-right__img m-w100" src="img/image 3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- content -->
+        <div class="content mt-100">
+
+            <!-- content-heading -->
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <img style="width: 100%;" src="img/image 8.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- content-container -->
+            <div class="content-container">
+                <div class="grid wide">
+                    <div class="row sm-gutter">
+                        <div class="col l-6 m-12 c-12">
+
+                            <div class="content-container__left rounded">
+                                <div class="grid">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-6">
+                                            <div class="content-container__advertisement">
+                                                <h2 class="content-container__text f-weight-7">Collection For Girls</h2>
+                                                <h5 class="content-container__texts f-weight-7">Up To <span class="nav-span">40%</span> Off</h5>
+                                                <button class="content-container__btn f-size-4">Shop Now</button>
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 m-6 c-6">
+                                            <img class="content-container__img m-w100" src="img/image 9.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-6 m-12 c-12">
+
+                            <div class="content-container__rigth rounded">
+                                <div class="grid">
+                                    <div class="row">
+                                        <div class="col l-6 m-6 c-6">
+                                            <div class="content-container__advertisement">
+                                                <h2 class="content-container__textx f-weight-7">Collection For Girls</h2>
+                                                <h5 class="content-container__texts f-weight-7">Up To <span class="nav-spans">40%</span> Off</h5>
+                                                <button class="content-container__btn f-size-4">Shop Now</button>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col l-6 m-6 c-6">
+                                            <img class="content-container__imgs m-w100" src="img/men_small 1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- content-sale -->
+            <div class="content-sale mt-100">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12 content-sale__heading rounded">
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col l-6 m-12 c-12 content-sale__left text-align">
+                                        <h2 class="content-sale__text f-weight-4">Baby & Kids Fashion</h2>
+                                        <div class="content-sale__container text-align">
+                                            <h2 class="content-sale__discount f-weight-7">SALE!</h2>
+                                            <h5 class="content-sale__time">07 to 14 Febuary </h5>
+                                        </div>
+                                        <button class="navbar-left__btn">Shop Now</button>
+                                    </div>
+
+                                    <div class="col l-6 m-12 c-12 nav-right text-align mt-50">
+                                        <img class="content-sale__imgs m-w100" src="img/image 10.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- content-new -->
+            <div class="content-new mt-100">
+                <div class="grid wide">
+                    <div class="content-new__heading text-align">
+                        <h2 class="content-new__text f-weight-7">New Arrivals</h2>
+                        <p class="content-new__item f-weight-4">Check out most promising product bought by our buyers</p>
+
+                        <div class="content-new__list">
+                            <button class="content-new__btn f-size-4 ms">All</button>
+                            <button class="content-new__btn f-size-4">Men</button>
+                            <button class="content-new__btn f-size-4">Wonmen</button>
+                            <button class="content-new__btn f-size-4">Kids</button>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <!-- content-shop -->
+                    <div class="row sm-gutter">
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <span class="content-shop__sale f-size-4 f-weight-4 position-absolute text-align">40%</span>
+                                <img class="content-shop__img rounded" src="img/image 14.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list" style="margin-top: 4px;">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Kids</h5>
+                                    <span class="content-shop__star">
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                    </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Yellow T-Shirt</h2>
+                                <span class="content-shop__span f-weight-7">$180</span>
+                                <span class="content-shop__spans f-weight-4"><del>$300</del></span>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <img class="content-shop__img rounded" src="img/image 15.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Women</h5>
+                                    <span class="content-shop__star">
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                    </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Ethnic Kurti</h2>
+                                <span class="content-shop__span f-weight-7">$220</span>
+                                <span class="content-shop__spans f-weight-4"><del>$250</del></span>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <span class="content-shop__sales f-size-4 f-weight-4s position-absolute text-align">New</span>
+                                <img class="content-shop__img rounded" src="img/image 16.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Women</h5>
+                                    <span class="content-shop__star">
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                    </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Kurtis, Tunics & Tops</h2>
+                                <span class="content-shop__span f-weight-7">$280</span>
+                                <span class="content-shop__spans f-weight-4"><del>$350</del></span>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <img class="content-shop__img rounded" src="img/image 17.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Men</h5>
+                                    <span class="content-shop__star">
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                        <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                        </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Round Neck T-shirt</h2>
+                                <span class="content-shop__span f-weight-7">$120</span>
+                                <span class="content-shop__spans f-weight-4"><del>$150</del></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--  -->
+                    <div class="content-icon__heading mt-100 text-align">
+                        <span class="content-icon__span position-relative">
+                            <i class="content-icon__down fa fa-long-arrow-left"></i>
+                        </span>
+                        <span class="content-icon__span position-relative">
+                            <i class="content-icon__down fa fa-long-arrow-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- content-img -->
+            <div class="content-img mt-100">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12 content-img__heading text-align rounded">
+                            <h2 class="content-img__text f-weight-7">Top Brands Deal</h2>
+                            <h5 class="content-img__item f-size-4 f-weight-7">Up To <span class="nav-span">60%</span> off on brands</h5>
+
+                            <div class="content-img__fashion d-flex justify-content__center align-items">
+                                <img class="content-img__logo rounded mt-20" src="img/image 7.png" alt="">
+                                <img class="content-img__logo rounded mt-20" src="img/image 18.png" alt="">
+                                <img class="content-img__logo rounded mt-20" src="img/image 19.png" alt="">
+                                <img class="content-img__logo rounded mt-20" src="img/image 20.png" alt="">
+                                <img class="content-img__logo rounded mt-20" src="img/image 21.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--  -->
+            <div class="content-new mt-100">
+                <div class="grid wide">
+                    <div class="content-new__heading text-align">
+                        <h2 class="content-new__text f-weight-7">Trending Collection</h2>
+                        <p class="content-new__item f-weight-4">Check out most promising product bought by our buyers</p>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <img class="content-shop__img rounded" src="img/image 14.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list" style="margin-top: 4px;">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Kids</h5>
+                                    <span class="content-shop__star">
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                           </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Kurti Full Sleev</h2>
+                                <span class="content-shop__span f-weight-7">$200</span>
+                                <span class="content-shop__spans f-weight-4"><del>$300</del></span>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <img class="content-shop__img rounded" src="img/image 15.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Women</h5>
+                                    <span class="content-shop__star">
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                           </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Silk Saree - Printied </h2>
+                                <span class="content-shop__span f-weight-7">$320</span>
+                                <span class="content-shop__spans f-weight-4"><del>$410</del></span>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <img class="content-shop__img rounded" src="img/image 16.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Men</h5>
+                                    <span class="content-shop__star">
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                           </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Multi Purpose Jacket</h2>
+                                <span class="content-shop__span f-weight-7">$510</span>
+                                <span class="content-shop__spans f-weight-4"><del>$750</del></span>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12 content-shop p-all">
+                            <div class="content-shop__fashion position-relative">
+                                <img class="content-shop__img rounded" src="img/image 17.png" alt="">
+                                <div class="content-shop__cart position-absolute">
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-heart-o"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-shopping-bag"></i>
+                                    </a>
+                                    <a href="#" class="content-shop__link position-relative">
+                                        <i class="content-shop__icon-down f-size-4 f-weight-4 fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="content-shop__list">
+                                <div class="content-shop__text d-flex justify-content align-items">
+                                    <h5 class="content-shop__item f-size-4 f-weight-4">Men</h5>
+                                    <span class="content-shop__star">
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icon f-size-4 f-weight-4  fa fa-star"></i>
+                                            <i class="content-shop__icons f-size-4 f-weight-4 fa fa-star-o"></i>
+                                           </span>
+                                </div>
+
+                                <h2 class="content-shop__name">Yellow T-Shirt</h2>
+                                <span class="content-shop__span f-weight-7">$400</span>
+                                <span class="content-shop__spans f-weight-4"><del>$480</del></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!--  -->
+                    <div class="content-icon__heading mt-100 text-align">
+                        <span class="content-icon__span position-relative">
+                            <i class="content-icon__down fa fa-long-arrow-left"></i>
+                        </span>
+                        <span class="content-icon__span position-relative">
+                            <i class="content-icon__down fa fa-long-arrow-right"></i>
+                        </span>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- content-reviews -->
+            <div class="content-reviews mt-100">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12 content-reviews__heading">
+                            <div class="content-new__heading text-align">
+                                <h2 class="content-new__text f-weight-7">Reviews</h2>
+                                <p class="content-new__item f-weight-4">This is what our customers have to say</p>
+                            </div>
+
+                            <div class="content-reviews__founder d-flex align-items rounded box-shadow position-relative">
+                                <img class="content-reviews__img" src="img/image 24.png" alt="">
+
+                                <div class="content-reviews__list">
+                                    <p class="content-reviews__item f-size-4 f-weight-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+                                        to use a passage of Lorem Ipsum</p>
+                                    <h5 class="content-reviews__name f-size-4 f-weight-7">Sameer Jain</h5>
+
+                                    <div class="content-reviews__text" style="float: right;">
+                                        <span class="content-icon__span position-relative">
+                                                <i class="content-icon__down fa fa-long-arrow-left"></i>
+                                            </span>
+                                        <span class="content-icon__span position-relative">
+                                                <i class="content-icon__down fa fa-long-arrow-right"></i>
+                                            </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- content-gmail -->
+            <div class="content-gmail mt-100">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12 text-align">
+                            <img class="content-gmail__img text-align" src="img/Icon_Customer_bytes 1.png" alt="">
+
+                            <div class="content-new__heading">
+                                <h2 class="content-new__text f-weight-7">Subscibe Newsletter</h2>
+                                <p class="content-new__item f-weight-4">Subscribe to our email and get updates right in your inbox</p>
+                            </div>
+
+                            <div class="grid wide">
+                                <div class="row justify-content__center">
+                                    <div class="content-gmail__letters">
+                                        <div class="content-gmail__guide d-flex align-items justify-content__center">
+                                            <input type="email" class="content-gmail__input" placeholder="Enter Your Email">
+                                            <i class="content-gmail__icon fa fa-telegram"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <ul class="content-gmail__list mt-100 d-flex justify-content__center align-items">
+                                <li class="content-gmail__iteam position-relative">
+                                    <a class="content-gmail__link" href="#">
+                                        <i class="content-gmail__icons me-3 fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li class="content-gmail__iteam position-relative">
+                                    <a class="content-gmail__link" href="#">
+                                        <i class="content-gmail__icons fa fa-instagram"></i>
+                                    </a>
+                                </li>
+
+                                <li class="content-gmail__iteam position-relative">
+                                    <a class="content-gmail__link" href="#">
+                                        <i class="content-gmail__icons fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer mt-100">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-6">
+                        <h2 class="nav-text">Fashion <span class="nav-span">Era</span></h2>
+                        <p class="nav-footer f-weight-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,</p>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <h3 class="footer-text"> Help</h3>
+
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Privacy Policy</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Shipping & Delivery</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Refund Policy</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Track Your Order</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col l-3 m-6 c-6">
+                        <h3 class="footer-text">Store</h3>
+
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Men Fashion</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Women Fashion</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Kids Fashion</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Other</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col l-3 m-6 c-6">
+                        <h3 class="footer-text">Support</h3>
+
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Feedback</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Contact us</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Download app</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-link f-weight-4">Terms & condition</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
